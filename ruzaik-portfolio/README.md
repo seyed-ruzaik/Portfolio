@@ -1,21 +1,20 @@
-# Seyed Ruzaik Portfolio (React + Vite)
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-Elegant one-page portfolio built with **React**, **Vite**, and plain **CSS** to showcase backend, AI and teaching experience.
+# Run and deploy your AI Studio app
 
-## Quick start
+This contains everything you need to run your app locally.
 
-```bash
-npm install
-npm run dev
-```
+View your app in AI Studio: https://ai.studio/apps/0625024f-d854-492f-87c0-567de002dfc9
 
-Then open the printed local URL in your browser.
+## Run Locally
 
-## Production build
+**Prerequisites:**  Node.js
 
-```bash
-npm run build
-npm run preview
-```
 
-Deploy the `dist/` folder to any static host (Netlify, GitHub Pages, Vercel, etc.).
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
